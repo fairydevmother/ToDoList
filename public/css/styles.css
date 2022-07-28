@@ -1,10 +1,8 @@
-html {
-  background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
-  min-height: 1000px;
-  font-family: 'helvetica neue';
-}
 
+body {
+
+  background: linear-gradient(90deg, rgba(219,88,221,1) 0%, rgba(57,64,251,1) 100%, rgba(255,0,0,1) 100%);
+}
 h1 {
   color: #fff;
   padding: 10px;
@@ -94,3 +92,46 @@ footer {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+
+
+
+
+.todo-container {
+color: white;
+position: absolute;
+top:50%;
+left: 50%;
+padding: 20px;
+width: 600px;
+transform: translate(-50%,-50%);
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.todo {
+width: 400px;
+}
+.todo-container h2 {
+padding: 10px;
+font-family: 'Candal', sans-serif;
+font-size: 2em;
+}
+.todo-header button {
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 5px;
+  font-family: 'Candal', sans-serif;
+  background-color: rgb(51, 212, 100);
+  }
